@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         XIV CN Traveler
 // @namespace    http://tampermonkey.net/
-// @version      0.1.0
+// @version      0.1.1
 // @description  Hook 原生函数进行超域旅行自动尝试，成功率可能会玄学的高一些...?
 // @author       etnAtker
 // @match        https://ff14bjz.sdo.com/RegionKanTelepo
@@ -174,7 +174,7 @@
     }
 
     if (window.webpackJsonp) {
-        const err = "[Hook] 错误: 检测到 webpackJsonp 已初始化，脚本将不会加载，请按 Shift + F5 刷新页面";
+        const err = "[Hook] 错误: 检测到 webpackJsonp 已初始化，脚本将不会加载，请按 Ctrl + F5 刷新页面";
         log(err);
         window.alert(err);
         return;

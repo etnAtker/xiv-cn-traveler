@@ -12,11 +12,11 @@
 
 1. 确保浏览器已安装 Tampermonkey 扩展。
 2. [点击安装脚本](https://raw.githubusercontent.com/etnAtker/xiv-cn-traveler/main/script.user.js)
-3. 若跨大区页面已打开，请按`Shift + F5`刷新页面。
+3. 若跨大区页面已打开，请按`Ctrl + F5`刷新页面。
 
 ## 使用流程
 
-1. 进入页面后，等待左侧日志窗提示`[Hook] 模块 xxx 的 exports 已捕获`。若报错，请按`Shift + F5`刷新页面。
+1. 进入页面后，等待左侧日志窗提示`[Hook] 模块 xxx 的 exports 已捕获`。若报错，请按`Ctrl + F5`刷新页面。
 2. 正常流程填写信息并提交传送申请。
 3. 点击传送后，脚本会进入 60s/次的自动循环尝试。
 4. 成功创建订单后脚本会自动停止，或点击 [STOP] 手动中止。
